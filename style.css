@@ -1,0 +1,65 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.left-side{
+    float:left;
+    width: 50%;
+    height:100vh;
+    left: initial;
+    background: red;
+}
+.right-side{
+    float:right;
+    width: 50%;
+    height:100vh;
+    background:green;
+}
+.test{
+    height: 50%;
+    width: 80%;
+    background-color: midnightblue;
+    margin-bottom: 5px;
+    margin-left:10%;
+    margin-top: 5%;
+}
+.stat{
+    height: 30%;
+    width: 80%;
+    background-color: aquamarine;
+    margin-left:10%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.dyna{
+    width: 50%;
+    height: 100%;
+    background-color: wheat;
+}
+.static{
+
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.texte{
+    height: 50%;
+    width: 80%;
+    margin-bottom: 5px;
+    background-color: midnightblue;
+    margin-left:10%;
+    margin-top: 5%;
+}
+.btn1{
+    width: 50%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+.btn2{
+    width: 50%;
+    height: 100%;
+    background-color: magenta;
+}
