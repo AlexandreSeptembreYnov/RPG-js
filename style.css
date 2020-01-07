@@ -3,23 +3,23 @@ body{
     overflow-y: hidden;
 }
 
-.left-side{
+#left-side{
     float:left;
     width: 50%;
     height:100vh;
     left: initial;
-    background: red;
+    background: linear-gradient(black, grey, darkgrey);
 }
-.right-side{
+#right-side{
     float:right;
     width: 50%;
     height:100vh;
-    background:green;
+    background: linear-gradient(black, grey, darkgrey);
 }
-.test{
+#test{
     height: 50%;
     width: 80%;
-    background-color: midnightblue;
+    background-image: url("Archer.jpg ");
     margin-bottom: 5px;
     margin-left:10%;
     margin-top: 5%;
@@ -27,39 +27,64 @@ body{
 .stat{
     height: 30%;
     width: 80%;
-    background-color: aquamarine;
+    background-color: darkslategray;
     margin-left:10%;
     margin-top: 5px;
     display: flex;
     flex-direction: row;
 }
-.dyna{
+#dyna{
     width: 50%;
     height: 100%;
-    background-color: wheat;
+    background : linear-gradient(lightgrey, wheat);
 }
-.static{
+#static{
 
     width: 50%;
     height: 100%;
-    background-color: blueviolet;
+    background: linear-gradient( aliceblue, blanchedalmond);
 }
 
-.texte{
+#texte{
     height: 50%;
     width: 80%;
     margin-bottom: 5px;
-    background-color: midnightblue;
+    background-color: white;
+    font-size: 33px;
+    font-family: 'Shadows Into Light', cursive;
     margin-left:10%;
     margin-top: 5%;
 }
-.btn1{
+#btn1{
     width: 50%;
     height: 100%;
-    background-color: blanchedalmond;
+    margin: 3px;
+    background-color : darksalmon;
 }
-.btn2{
-    width: 50%;
+#btn2{
+     width: 50%;
+     height: 100%;
+     margin: 3px;
+    background-color : darksalmon;
+ }
+
+.hide{
+    display: none;
+}
+#Lose {
+    position: absolute;
     height: 100%;
-    background-color: magenta;
+    width: 100%;
+    background: red;
+    text-align: center;
+    font-size: 120px;
 }
+#GG{
+       position: absolute;
+       height: 100%;
+       width: 100%;
+       background: darkblue;
+    color: white;
+       text-align: center;
+       font-size: 120px;
+   }
